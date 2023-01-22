@@ -11,8 +11,7 @@ app.get("/", function(req, res){
 });
 
 const endpoint = "https://api.openweathermap.org"
-const apiKey = "d243167b70d981271445a7e735cea7e9"
-//const apiKey = "{YOUR_APIKEY}"
+const apiKey = "{YOUR_APIKEY}"
 
 app.post("/", function(req, res){
     const unit = "metric"
